@@ -1,0 +1,224 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration:none
+}
+/*footer CSS*/
+#header{
+    height:60px;
+    background-color:#e28b62
+}
+
+#icon{
+    float: left;
+    margin-left:1%;
+    margin-top:-1%
+}
+
+#social{
+    float: right; 
+}
+
+.slogo{
+    height:50px;
+    width:50px;
+}
+
+.headingText{
+    text-align:center;
+    font-size:40px;
+    font-weight: bold;
+    color:rgb(32, 71, 46);
+}
+
+#content{
+    display: inline-block;
+    width:90%;
+    margin-left:6%
+}
+
+#filterDiv{
+    height:500px;
+    width:18%;
+    border:2px solid grey;
+    border-width: 5px;
+    border-radius: 5px;
+    float: left;
+
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    color:#0f2419;
+    font-family: "Times New Roman", Times, serif;
+}
+#contentDiv{
+    height:1100px;
+    width:75%;
+    margin-left: 5%;
+    float: left;
+}
+.tileContainer{
+    width:95%;
+    box-shadow: 5px 5px 10px gray;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 2%; 
+}
+.tileComponent1{
+    width:45%;
+    height:251px;
+    float: left;
+  }
+  .tileComponent1 > img{
+    width:100%;
+    height:251px;
+    border-radius: 10%;
+}
+  .tileComponent2{
+      width:45%;
+      margin-left: 5%;
+      margin-top: 0;
+      float: left;
+  }
+  .componentHeading > {
+    color:#e28b62;
+    font-size: 15px;
+    margin-bottom: 1%;
+    
+} 
+
+.btn{ 
+    background-color: rgb(99, 99, 219); 
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 1%;
+    border-radius: 5px;
+     margin-bottom: 2%;
+}
+.btn1{ 
+    background-color:rgb(10, 85, 62); 
+    color: white; 
+    font-size: 25px;
+    font-weight: bold; 
+    border-radius: 5px; 
+    margin-left: 5%;
+} 
+.btn2{ 
+    background-color: rgb(223, 99, 99); 
+    border-radius: 5px; 
+    font-size: 25px;
+    font-weight: bold;
+    color: white;  
+    margin-left: 1%;
+}
+
+.btn3{ 
+    background-color: rgb(230, 183, 98); 
+    color: white; 
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;  
+    margin-left: 5%;
+} 
+/*footer CSS*/
+#footer{
+    height:120px;
+    width:100%;
+    margin-top: 5%;
+    background-color:#e28b62
+}
+
+#footText{
+    text-align: center;
+}
+
+.footDiv{
+    height:70px;
+    width:33%;
+    float: left;
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+.noBorder{
+    border:none 
+}
+/* Customize the label (the container) */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 13px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+    top:4px;
+    left: 4px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: white;
+  }
+  
+ 
+  #can{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+#caa{
+    text-align: center;
+    font-size: 17px;
+}
